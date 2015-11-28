@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FlickrAlbumDownloader.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DownloaderPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Temp\</Value>
+    </Setting>
+    <Setting Name="UseAuthetication" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="UserId" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">96094953@N08</Value>
+    </Setting>
+    <Setting Name="FlickrSharedSecret" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">&lt;&lt;add some value&gt;&gt;</Value>
+    </Setting>
+    <Setting Name="FlickrApiKey" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">&lt;&lt;add some value&gt;&gt;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
