@@ -49,7 +49,7 @@ namespace FlickrAlbumDownloader
                 downloader.PhotoSetDownloadProgressChanged += downloader_PhotoSetDownloadProgressChanged;
                 downloader.DownloadPhotoSet(selectedPhotoSet.Id, path);
                 Console.WriteLine("And we're done");
-                Console.WriteLine("All photos has been downloaded to {0}.", path);
+                Console.WriteLine("All photos have been downloaded to {0}.", path);
             }
             catch (Exception ex)
             {
@@ -63,7 +63,7 @@ namespace FlickrAlbumDownloader
 
         static void downloader_PhotoSetDownloadProgressChanged(object sender, PhotoSetDownloadProgress e)
         {
-            Console.WriteLine("{0} of {1} photos has been downloaded.", e.CurrentPhotoNumber, e.PhotosCount);
+            Console.WriteLine("{0} of {1} photos have been downloaded.", e.CurrentPhotoNumber, e.PhotosCount);
         }
 
         private static string GetData(string caption)
